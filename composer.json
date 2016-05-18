@@ -1,0 +1,11 @@
+{
+    "require": {
+        "videlalvaro/php-amqplib": "^2.6",
+        "travail/parallel-prefork": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\RabbitMQ\\Rpc\\": "src/"
+        }
+    }
+}
